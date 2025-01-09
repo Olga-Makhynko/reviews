@@ -1,5 +1,6 @@
 .section-reviews {
-  padding: 0px 65px;
+  padding-right: 65px;
+  padding-left: 65px;
   width: 1280px;
   height: 356px;
 }
@@ -10,8 +11,8 @@
 }
 
 .reviews-section-title {
-  padding-left: 65px;
   font-family: "Gilroy", sans-serif;
+  margin-bottom: 40px;
   font-weight: 600;
   font-size: 48px;
   line-height: 0.91667;
@@ -22,4 +23,14 @@
 .reviews-list {
   gap: 20px;
   display: flex;
+}
+
+.reviews-line-list {
+  padding: 32px 36px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  background: #f3f3f3;
 }
